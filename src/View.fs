@@ -55,14 +55,24 @@ let drawGameField model =
                 BackgroundColor "rgba(52, 73, 95, 0.1)"]]                
         (renderGridWithActive model renderGridWithSpans)
 
+let infoPanel model =
+    div
+        [ClassName "info-panel"
+         Style [Display (if model.state <> Playing then "block" else "none")]]
+        [p
+            []
+            [str "Play with a keyboard using the arrow keys ← ↑ ↓ →"]
+        ]
+
 let root (model:Model) dispatch =
     div
         [ ClassName "main" ]
         [ div
             [ ClassName "main-div" ]        
             [ drawGameField model
+              infoPanel model
               div
-                [ ClassName "info-panel" ]
+                [ ClassName "score-panel" ]
                 [ div 
                     [ ClassName "title" ]
                     [ str "Flatris" ] 
