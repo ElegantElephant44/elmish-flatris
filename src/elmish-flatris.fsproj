@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>   
+    <Compile Include="Grid.fs" />      
+    <Compile Include="Types.fs" />
+    <Compile Include="Tetriminos.fs" />  
+    <Compile Include="Game.fs" />    
+    <Compile Include="State.fs" />
+    <Compile Include="View.fs" />
+    <Compile Include="Subs.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>
