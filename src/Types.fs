@@ -4,8 +4,6 @@ open Grid
 
 type Color = Color of string
 
-type AnimationState =  { active : bool; elapsed : int }
-
 type State = 
     | Paused
     | Playing

@@ -2,6 +2,8 @@
 
 A [Flatris](https://github.com/skidding/flatris) and [elm-flatris](https://github.com/w0rm/elm-flatris/)  clone in  [Fable](http://fable.io/) and [Elmish](https://fable-elmish.github.io/).
 
+<img src="demo.png" style="width: 400px;"/>
+
 ## Requirements
 
 * [dotnet SDK](https://www.microsoft.com/net/download/core) 2.0.0 or higher
