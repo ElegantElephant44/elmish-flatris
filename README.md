@@ -1,6 +1,6 @@
 # elmish-flatris
 
-A [Flatris](https://github.com/skidding/flatris) and [elm-flatris](https://github.com/w0rm/elm-flatris/)  clone in  [Fable](http://fable.io/) and [Elmish](https://fable-elmish.github.io/).
+A [Flatris](https://github.com/skidding/flatris) and [elm-flatris](https://github.com/w0rm/elm-flatris/)  clone in  [Fable](http://fable.io/) and [Elmish](https://fable-elmish.github.io/). Current [demo](https://elegantelephant44.github.io/elmish-flatris/).
 
 <img src="demo.png" style="width: 400px;"/>
 
